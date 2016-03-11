@@ -1,0 +1,2 @@
+# SVSmartDictionary
+More enhanced NSMutableDictionary
