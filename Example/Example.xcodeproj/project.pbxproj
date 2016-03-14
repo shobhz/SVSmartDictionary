@@ -13,21 +13,21 @@
 		A3BD30781C92A9D500823477 /* Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3BD30761C92A9D500823477 /* Example.xcdatamodeld */; };
 		A3BD307A1C92A9D500823477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BD30791C92A9D500823477 /* Assets.xcassets */; };
 		A3BD307D1C92A9D500823477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BD307B1C92A9D500823477 /* LaunchScreen.storyboard */; };
-		A3BD308D1C92AA3000823477 /* SVSmartDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BD308C1C92AA3000823477 /* SVSmartDictionary.framework */; };
-		A3BD308F1C92AA6F00823477 /* SVSmartDictionary.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A3BD30891C92A9F000823477 /* SVSmartDictionary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3BD309E1C92C19800823477 /* SVSmartDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BD309B1C92C17F00823477 /* SVSmartDictionary.framework */; };
+		A3BD309F1C92C19F00823477 /* SVSmartDictionary.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A3BD309B1C92C17F00823477 /* SVSmartDictionary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A3BD30881C92A9F000823477 /* PBXContainerItemProxy */ = {
+		A3BD309A1C92C17F00823477 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A3BD30841C92A9F000823477 /* SVSmartDictionary.xcodeproj */;
+			containerPortal = A3BD30961C92C17F00823477 /* SVSmartDictionary.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A3BD30561C92A82A00823477;
 			remoteInfo = SVSmartDictionary;
 		};
-		A3BD308A1C92AA0E00823477 /* PBXContainerItemProxy */ = {
+		A3BD309C1C92C19100823477 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A3BD30841C92A9F000823477 /* SVSmartDictionary.xcodeproj */;
+			containerPortal = A3BD30961C92C17F00823477 /* SVSmartDictionary.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = A3BD30551C92A82A00823477;
 			remoteInfo = SVSmartDictionary;
@@ -41,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A3BD308F1C92AA6F00823477 /* SVSmartDictionary.framework in Copy Frameworks */,
+				A3BD309F1C92C19F00823477 /* SVSmartDictionary.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,8 +57,7 @@
 		A3BD30791C92A9D500823477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3BD307C1C92A9D500823477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3BD307E1C92A9D500823477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3BD30841C92A9F000823477 /* SVSmartDictionary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SVSmartDictionary.xcodeproj; sourceTree = "<group>"; };
-		A3BD308C1C92AA3000823477 /* SVSmartDictionary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVSmartDictionary.framework; path = "../SVSmartDictionary/build/Debug-iphoneos/SVSmartDictionary.framework"; sourceTree = "<group>"; };
+		A3BD30961C92C17F00823477 /* SVSmartDictionary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SVSmartDictionary.xcodeproj; path = ../SVSmartDictionary/SVSmartDictionary.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3BD308D1C92AA3000823477 /* SVSmartDictionary.framework in Frameworks */,
+				A3BD309E1C92C19800823477 /* SVSmartDictionary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +75,7 @@
 		A3BD30631C92A9D500823477 = {
 			isa = PBXGroup;
 			children = (
-				A3BD308C1C92AA3000823477 /* SVSmartDictionary.framework */,
-				A3BD30841C92A9F000823477 /* SVSmartDictionary.xcodeproj */,
+				A3BD30961C92C17F00823477 /* SVSmartDictionary.xcodeproj */,
 				A3BD306E1C92A9D500823477 /* Example */,
 				A3BD306D1C92A9D500823477 /* Products */,
 			);
@@ -105,10 +103,10 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		A3BD30851C92A9F000823477 /* Products */ = {
+		A3BD30971C92C17F00823477 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3BD30891C92A9F000823477 /* SVSmartDictionary.framework */,
+				A3BD309B1C92C17F00823477 /* SVSmartDictionary.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,7 +126,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A3BD308B1C92AA0E00823477 /* PBXTargetDependency */,
+				A3BD309D1C92C19100823477 /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -163,8 +161,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = A3BD30851C92A9F000823477 /* Products */;
-					ProjectRef = A3BD30841C92A9F000823477 /* SVSmartDictionary.xcodeproj */;
+					ProductGroup = A3BD30971C92C17F00823477 /* Products */;
+					ProjectRef = A3BD30961C92C17F00823477 /* SVSmartDictionary.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -175,11 +173,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		A3BD30891C92A9F000823477 /* SVSmartDictionary.framework */ = {
+		A3BD309B1C92C17F00823477 /* SVSmartDictionary.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SVSmartDictionary.framework;
-			remoteRef = A3BD30881C92A9F000823477 /* PBXContainerItemProxy */;
+			remoteRef = A3BD309A1C92C17F00823477 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -211,10 +209,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A3BD308B1C92AA0E00823477 /* PBXTargetDependency */ = {
+		A3BD309D1C92C19100823477 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVSmartDictionary;
-			targetProxy = A3BD308A1C92AA0E00823477 /* PBXContainerItemProxy */;
+			targetProxy = A3BD309C1C92C19100823477 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -362,6 +360,7 @@
 				A3BD30831C92A9D500823477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
